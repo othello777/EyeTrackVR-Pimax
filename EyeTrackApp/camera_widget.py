@@ -32,7 +32,7 @@ import math
 from eye import EyeId
 from eye_processor import EyeProcessor, EyeInfoOrigin
 from queue import Queue, Empty
-from camera import Camera, CameraState
+from camera_pimax import Camera, CameraState
 import cv2
 from osc.OSCMessage import OSCMessageType, OSCMessage
 from utils.misc_utils import PlaySound, SND_FILENAME, SND_ASYNC, resource_path
